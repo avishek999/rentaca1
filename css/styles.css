@@ -1,0 +1,258 @@
+#title {
+  /* background-color: #ff6700; */
+  background-color: #fff;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 3.5rem; */
+  line-height: 1.5;
+  /* color: #fff; */
+}
+
+.h3 {
+  color: black;
+}
+
+p {
+  color: #fff;
+}
+.nav-link:hover{
+  color: red !important;
+}
+ a:hover{
+   color: red;
+ }
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  padding-top: 5%;
+  font-style: normal;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+.call:hover{
+  color: red;
+}
+
+.navbar-brand:hover{
+  color: red;
+}
+
+.nav-item {
+  padding: 0 18px;
+  padding-bottom: 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Montserrat-light', sans-serif;
+  color: black;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Iphone  */
+.iphone {
+  width: 20%;
+  transform: rotate(23deg);
+  position: absolute;
+  right: 23%
+}
+.car{
+  height: 700px;
+position: relative;
+bottom: 100px;
+  }
+.rent{
+  color:red;
+}
+.orange{
+  position:fixed;
+  bottom:0px;
+  height: 900px;
+}
+.head{
+  color: black;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color:#c6471c;
+  position: relative;
+  z-index: 1;
+}
+
+.f1 {
+  color: black;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+  font-family: 'Montserrat-light', sans-serif
+}
+
+/* icon */
+.icon {
+  color: #f5f5dc;
+  margin-bottom: 1.3rem;
+}
+
+.icon:hover {
+  color: Black;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: : 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.p1 {
+  text-align: center;
+}
+
+/* Pricing Section */
+#address {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding-top: 2%;
+}
+.p{
+  font-size: 50px;
+  color: #c6471c;
+}
+
+/* CTA */
+#cta {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding: 7% 15%;
+  background-color:#c6471c;
+}
+
+.cta-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
+}
+
+.icon1 {
+  padding: 0.4% 0.4%;
+}
+
+@media (max-width: 400px) {
+  #title {
+    text-align: center;
+  }
+  .navbar-brand{
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .car{
+    position: relative;
+    border-bottom: 100px;
+  }
+
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 90%;
+  }
+}
+
+.copy {
+  color: #8f8f8f;
+  x: ;
+}
